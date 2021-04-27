@@ -1,5 +1,5 @@
 module "webservers" {
-    source = "/home/omkar_nadkarni1/learn/class1-gcp/modules/compute"
+    source = "github.com/onadkarni/gcp-test-modules/compute"
     projectid = var.projectid
     computer_name = var.computer_name
     #project_name = "gcp-vm-class1-26thapril"
